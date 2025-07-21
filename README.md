@@ -78,6 +78,8 @@ cd star-wars-api
 
 ### 2. Construccion y arranque
 
+Antes de construir la imagen de docker debemos setear las variables de entorno en .env y en src/config/init.sql
+
 ```bash
 docker compose up --build -d
 ```
